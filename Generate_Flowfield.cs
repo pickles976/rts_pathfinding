@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//takes in a dijkstra grid and outputs a flowfield
 public class Generate_Flowfield
 {
     public Vector3[,] generate_flowfield(int row,int col,int[,] dijkstra_grid,int xOff,int zOff,float cellSize)
